@@ -37,4 +37,4 @@ let body1 = document.getElementById('cont');
 
 console.log(counter);
 
-},1000)
+},5000)
