@@ -5,7 +5,7 @@
 :root {
     --desktop-bg: hsl(0, 100%, 74%);
     --alert-bg: hsl(249, 10%, 26%) ;
-    --border-color:hsl(246, 25%, 77%)
+    --border-color:hsl(246, 25%, 77%);
 
 }
 
@@ -97,4 +97,24 @@ form button{
     border-radius: 5px;
     background-color: hsl(154, 59%, 51%);
 
+}
+.inp{
+    margin: 20px;
+    padding: 1rem;
+    
+}
+.btn{
+    
+        background-color:  hsl(6, 94%, 69%);
+        border: 2px solid #020353;
+        color: whitesmoke;
+        padding: 1em 1.5em;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1em;
+        display: inline-block;
+        width: 22%;
+        border-radius: 5px;
+        box-shadow: 3px 3px 8px 0 #000; /* h-offset v-offset blur spread color */
+    
 }
