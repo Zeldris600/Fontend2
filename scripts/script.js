@@ -35,13 +35,15 @@ class UI {
     }, 1000);
   }
 
-  changer2() {
-    let userCounter = document.getElementById("inputCounter");
-    let userCounter3 = userCounter.value;
-    let userCounter2 = new UI(userCounter3);
-    userCounter2.change();
-    userCounter.value = "";
-  }
+  
+}
+
+function  changer2() {
+  let userCounter = document.getElementById("inputCounter");
+  let userCounter3 = userCounter.value;
+  let userCounter2 = new UI(userCounter3);
+  userCounter2.change();
+  userCounter.value = "";
 }
 
 //const myUI = new UI(60);
