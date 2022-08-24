@@ -30,23 +30,19 @@ class UI {
       }
 
       console.log(counter);
-      let displayCounter = document.getElementById('displayCounter');
-      displayCounter.innerHTML = `Counter is at ${this.counter}`
+      let displayCounter = document.getElementById("displayCounter");
+      displayCounter.innerHTML = `Counter is at ${this.counter}`;
     }, 1000);
+  }
+
+  changer2() {
+    let userCounter = document.getElementById("inputCounter");
+    let userCounter3 = userCounter.value;
+    let userCounter2 = new UI(userCounter3);
+    userCounter2.change();
+    userCounter.value = "";
   }
 }
 
-
-
-const myUI = new UI(60);
-const myUI2 = new UI(100);
-
-let userCounter = document.getElementById('inputCounter');
-
-function changer(){
-let userCounter3 = userCounter.value
- let userCounter2 = new UI(userCounter3);
- userCounter2.change()
- userCounter.value = '';
- 
-}
+//const myUI = new UI(60);
+//const myUI2 = new UI(100);
